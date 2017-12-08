@@ -31,6 +31,8 @@ public class TS1{
 		dp.viewkart.click();
 		String actual=kp.kartproduct.getText();
 		Assert.assertEquals(actual, "Selenium Ruby");
+		
+		System.out.println("This is verification print statement");
 	}
 	
 	@AfterMethod
